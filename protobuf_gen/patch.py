@@ -8,7 +8,9 @@ from google.protobuf.descriptor import FileDescriptor
 # these modules are provided as part of the standard python protobuf distribution by google and therefore are
 # not required.
 DO_NO_REPLACE = [
+    'google.api',
     'google.protobuf',
+    'google.rpc',
 ]
 
 
